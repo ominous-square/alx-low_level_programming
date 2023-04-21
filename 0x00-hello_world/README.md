@@ -1,1 +1,0 @@
-First scripts to run C
