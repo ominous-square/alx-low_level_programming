@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - entry point
  * @argc: argument count
@@ -7,12 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-int count;
+    int c, i;
 
-for (count = 0; count < argc; count++)
-{
-_putchar(argv[count]);
-_putchar('\n');
-}
-return (0);
+    for (c= 0; c < argc; c++)
+    {
+        printf("%s\n", argv[c]);
+    }
+    return (0);
 }
